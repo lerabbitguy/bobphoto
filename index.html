@@ -1,0 +1,573 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>crazy website</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#intro">
+                <img src="assets/Bob-Photo-Logo.png" alt="Bob Photo Logo" width="112" height="80">
+            </a>
+            <!-- toggle button for mobile nav-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
+                <ul class="navbar-nav" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item mx-3">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!--navbar book now button-->
+            <a href="#booking" class="btn btn-lg btn-outline-secondary">Book Now</a>
+        </div>
+    </nav>
+
+
+    <!-- Home Page -->
+    <section id="home">
+        
+            <div style="background-image: url('assets/camera-lens-background-photography-concept_297446-319.jpg'); background-size: cover; height:480px; padding-top:80px;">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-5 text-center text-white">
+                            <h1 style="text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);">
+                                <div class="display-1">Bob Photo</div>
+                                <div class="display-5 text-muted">The #1 Photography Store in North America</div>
+                            </h1>
+                            <a href="#pricing" class="btn btn-warning btn-lg mt-5">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1>About Us</h1>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center">
+                
+                 <div class="col-md-4 mx-0 text-center d-none d-md-block">
+                    <img class="img-fluid" src="assets/Bob-Photo-Store.png" alt="Image of Store">
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <p>
+                        <div class="mb-3"><strong>Bob Photo</strong></div>
+                        <div>2279 Bobert Blvd</div>
+                        <div>Ottawa, Ontario</div>
+                        <div>K2P 1X5</div>
+                        <div>613-823-2162</div>
+                        <div>photo@bobphoto.com</div>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <div class="mb-3"><strong>Business Hours</strong></div>
+                        <div>Weekdays: 9:00AM - 7:00PM</div>
+                        <div>Sat-Sun: 10:00AM - 5:00PM</div>
+                    </p>
+                </div>
+            </div>
+
+           
+            <!-- Meet the Team -->
+            <div id="bobTeamWrapper">
+                <div class="text-center">
+                    <h1 class="display-6">Meet the Team</h1>
+                </div>
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/Houston-Business-Headshot-Leo-Revuelta2.jpg" class="card-img-top" alt="Bob">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bob</h5>
+                                  <h6 class="card-subtitle mb-4 mt-2 text-muted">Award-winning Photographer</h6>
+                                  <a href="#" class="btn btn-warning">View reel</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/jeff.png" class="card-img-top" alt="Jeff Jefferson">
+                                <div class="card-body">
+                                  <h5 class="card-title">Jeff Jefferson</h5>
+                                  <h6 class="card-subtitle mb-4 mt-2 text-muted">Photographer</h6>
+                                  <a href="#" class="btn btn-warning">View reel</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/waverly-cedarfalls-waterloo-Iowa-business-headshots-bostudio121-000014_03-e1521497792653.jpg" class="card-img-top" alt="Mikayla Mikkelsen">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mikayla Mikkelsen</h5>
+                                  <h6 class="card-subtitle mb-4 mt-2 text-muted">Photographer</h6>
+                                  <a href="#" class="btn btn-warning">View reel</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8 col-lg-3">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/john.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">John Johnson</h5>
+                                  <h6 class="card-subtitle mb-4 mt-2 text-muted">Photographer</h6>
+                                  <a href="#" class="btn btn-warning">View reel</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Page -->
+    <section id="services">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1>Our Services</h1>
+                <p class="lead text-muted">We offer a wide varity of services, which are given with the highest quality.</p>
+            </div>
+            
+
+           
+            <!-- Services Cards -->
+            <div id="servicesWrapper">
+                
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/portrait.png" class="card-img-top" alt="portrait example">
+                            <div class="card-body">
+                              <h5 class="card-title">Portraits</h5>
+                              <p class="card-text">We will do your Family Portraits, Business Portraits, Grad Photos, and more!</p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/frames.jpg" class="card-img-top" alt="Framed wedding photo">
+                            <div class="card-body">
+                              <h5 class="card-title">Printing and Frames</h5>
+                              <p class="card-text">We provide you with help printing, and framing, your photos using hand-made premium prints. </p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/id.png" class="card-img-top" alt="ID photo">
+                            <div class="card-body">
+                              <h5 class="card-title">Passport and ID Photos</h5>
+                              <p class="card-text">In only 10 minutes, we'll make your passport and ID photos for any purpose and country!</p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="servicesWrapper">
+                
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/restore.png" class="card-img-top" alt="Photo Restoration">
+                            <div class="card-body">
+                              <h5 class="card-title">Photo Restoration</h5>
+                              <p class="card-text">We professionally restore old photos that may be faded or damaged, so that you can preserve your history.</p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/wallart.jpg" class="card-img-top" alt="Wall Art">
+                            <div class="card-body">
+                              <h5 class="card-title">Wall Art</h5>
+                              <p class="card-text">Discover unique wall art for your home.</p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-8 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/film.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Film Developing</h5>
+                              <p class="card-text">We'll get your film developed from disposable cameras in colour or black and white!</p>
+                              <a href="#pricing" class="btn btn-warning">See Pricing</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1>Explore our pricing</h1>
+                <p class="lead text-muted">Select a service to view pricing info:</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4">
+                    <select name="servicePricing" id="servicePricing" class="form-select" onchange="showPricing()">
+                        <option value="default" selected>&ltselect one&gt</option>
+                        <option value="portraits" id="portraits">Portraits</option>
+                        <option value="printing" id="printing">Printing and Frames</option>
+                        <option value="passport" id="passport">Passport and ID Photos</option>
+                        <option value="restoration" id="restoration">Photo Restoration</option>
+                        <option value="wallart" id="wallart">Wall Art</option>
+                        <option value="film" id="film">Film Developing</option>
+                    </select>
+                </div>
+            </div>
+            <!-- portraits pricing -->
+            <div id="portraitsPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Standard</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$159</p>
+                                    <p class="card-text text-muted d-none d-lg-block">30 minute Studio Session + <br><strong>Two</strong> professional HD digital photos</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-warning border-2">
+                                <div class="card-header text-center text-warning fw-bold">Most Popular</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Deluxe</h4>
+                                        <p class="display-4 my-4 text-warning fw-bold">$199</p>
+                                        <p class="card-text text-muted d-none d-lg-block">45 minute Studio Session + <br><strong>Five</strong> professional HD digital photos</p>
+                                        <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Business</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$215</p>
+                                    <p class="card-text text-muted d-none d-lg-block">Standard Package +  <br><strong>Unlimited</strong> license for commercial use</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <!-- printing and frames pricing -->
+            <div id="printingPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Small</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$9.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">5x7" Handmade Print</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-warning border-2">
+                                <div class="card-header text-center text-warning fw-bold">Most Popular</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Medium</h4>
+                                        <p class="display-4 my-4 text-warning fw-bold">$19.99</p>
+                                        <p class="card-text text-muted d-none d-lg-block">11x14" Handmade Print</p>
+                                        <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Large</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$39.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">16x20" Handmade Print</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    <h5 style="text-align:center" class="mt-5">+$10 framing fee for any photo and frame!</h5>
+                </div>
+            </div>
+
+            <!-- passport id photos pricing -->
+            <div id="passportPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Set of Two</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$20</p>
+                                    <p class="card-text text-muted d-none d-lg-block">Any Passport Photo, ID photo, Permanent Residence Photo, Visa, etc.</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-warning border-2">
+                                <div class="card-header text-center text-warning fw-bold">Most Popular</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Set of Four</h4>
+                                        <p class="display-4 my-4 text-warning fw-bold">$25</p>
+                                        <p class="card-text text-muted d-none d-lg-block">Any Passport Photo, ID photo, Permanent Residence Photo, Visa, etc.</p>
+                                        <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Digital</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$25</p>
+                                    <p class="card-text text-muted d-none d-lg-block">+$5 for Digital with prints</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+            <!-- photo restoration pricing -->
+            <div id="restorationPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Basic Restoration</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$19.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">Basic colour,tint, and exposure corrections</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-warning border-2">
+                                <div class="card-header text-center text-warning fw-bold">Most Popular</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">Moderate Restoration</h4>
+                                        <p class="display-4 my-4 text-warning fw-bold">$39.99</p>
+                                        <p class="card-text text-muted d-none d-lg-block">Enhanced corrections + <br>removal of water damage, dust, rips, etc.</p>
+                                        <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Extensive Restoration</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$89.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">For extremely damaged photos.</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+            <!-- wall art pricing pricing -->
+            <div id="wallartPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                        <div class="col-9 col-lg-6">
+                            <h5 style="text-align:center" class="mt-5">Wall art pieces are available in store. Pricing varies depending on the piece.</h5>
+                        </div>
+                </div>
+            </div>
+
+            <!-- film developing pricing -->
+            <div id="filmPricingWrapper">
+                <div class="row my-5 align-items-center justify-content-center">
+                    
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">24 Exposure Roll, Colour</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$19.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">Comes with a set of prints and digital files.</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-warning border-2">
+                                <div class="card-header text-center text-warning fw-bold">Most Popular</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">36 Exposure Roll, Colour</h4>
+                                        <p class="display-4 my-4 text-warning fw-bold">$21.99</p>
+                                        <p class="card-text text-muted d-none d-lg-block">Comes with a set of prints and digital files.</p>
+                                        <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">24 Exposure Roll, Black & White</h4>
+                                    <p class="display-5 my-4 text-warning fw-bold">$23.99</p>
+                                    <p class="card-text text-muted d-none d-lg-block">Comes with a set of prints and digital files.</p>
+                                    <a href="#booking" class="btn btn-md btn-outline-secondary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Book Apt -->
+    <section id="booking">
+        <div class="container-lg">
+      
+            <div class="text-center">
+              <h2>Book an Appointment</h2>
+            </div>
+            <div class="row justify-content-center my-5">
+              <div class="col-lg-6">
+                
+                <form>
+                  <label for="email" class="form-label">Email address:</label>
+                  <div class="mb-4">
+                    <input type="text" id="email" class="form-control" placeholder="e.g. bob@example.com" />
+                  </div>
+                  <label for="name" class="form-label">Your full name:</label>
+                  <div class="mb-4">
+                    <input type="text" id="name" class="form-control" placeholder="e.g. Bob LastName" />
+                  </div>
+                  <label for="date" class="form-label">Date:</label>
+                  <div class="mb-4">
+                    <input type="text" id="date" class="form-control" placeholder="DD/MM/YYYY" />
+                  </div>
+                  <label for="time" class="form-label">Time:</label>
+                  <div class="mb-4">
+                    <input type="text" id="time" class="form-control" placeholder="HH:MM" />
+                  </div>
+                  <label for="serviceSelect" class="form-label">Service:</label>
+                  <div class="mb-4">
+                    <select name="serviceSelect" id="serviceSelect" class="form-select">
+                        <option value="default" selected>&ltselect one&gt</option>
+                        <option value="portraits">Portraits</option>
+                        <option value="printing">Printing and Frames</option>
+                        <option value="passport">Passport and ID Photos</option>
+                        <option value="restoration">Photo Restoration</option>
+                        <option value="wallart">Wall Art</option>
+                        <option value="film">Film Developing</option>
+                    </select>
+                  </div>
+                  <label for="serviceSelect2" class="form-label">Service #2 (optional):</label>
+                  <div class="mb-4">
+                    <select name="serviceSelect2" id="serviceSelect2" class="form-select">
+                        <option value="default" selected>&ltselect one&gt</option>
+                        <option value="portraits">Portraits</option>
+                        <option value="printing">Printing and Frames</option>
+                        <option value="passport">Passport and ID Photos</option>
+                        <option value="restoration">Photo Restoration</option>
+                        <option value="wallart">Wall Art</option>
+                        <option value="film">Film Developing</option>
+                    </select>
+                  </div>
+                  <div class="mb-4 mt-5 form-floating">
+                    <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+                    <label for="query">Additional information...</label>
+                  </div>
+                  <div class="mb-4 text-center">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- image next to text example
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Book an <br> Appointment</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">2279 Bobert Blvd</p>
+                    <p class="lead my-4 text-muted">613-823-2162</p>
+                    <p class="lead my-4 text-muted">photo@bobphoto.com</p>
+                    
+                </div>
+                <div class="col-md-5 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="sandbox.js"></script>
+</body>
+</html>
